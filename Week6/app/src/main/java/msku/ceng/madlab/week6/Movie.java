@@ -3,10 +3,11 @@ package msku.ceng.madlab.week6;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Movie implements Parcelable {
+public class Movie implements Parcelable, Serializable {
     private String name;
     private String director;
     private int year;
